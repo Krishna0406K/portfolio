@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#firstsection">About Me</a></li>
+                    <li><a href="#skills-section">Skills</a></li>
+                    <li><a href="#projects-container">Projects</a></li>
+                    <li><a href="#footer-container">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="firstsection"  class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="purple">Krishna</span>
+                <div>and I am passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="Animation - 1742395512045.gif" alt="Profile Image">
+            </div>
+        </div>
+        <div id="skills-section"  class="skills-section">
+            <h1>Skills</h1>
+            <div class="skill">
+                <div class="skill-name">HTML</div>
+                <div class="skill-bar">
+                    <div class="skill-fill" style="width: 90%;">90%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">CSS</div>
+                <div class="skill-bar">
+                    <div class="skill-fill" style="width: 85%;">85%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">JavaScript</div>
+                <div class="skill-bar">
+                    <div class="skill-fill" style="width: 70%;">70%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">Python</div>
+                <div class="skill-bar">
+                    <div class="skill-fill" style="width: 80%;">80%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">React</div>
+                <div class="skill-bar">
+                    <div class="skill-fill" style="width: 50%;">50%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">C++</div>
+                <div class="skill-bar">
+                    <div class="skill-fill" style="width: 50%;">50%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">C</div>
+                <div class="skill-bar">
+                    <div class="skill-fill" style="width: 60%;">60%</div>
+                </div>
+            </div>
+        </div>
+
+
+        <h1>Projects</h1>
+        <div id="projects-container" class="projects-container">
+            <div class="project-card">
+                <h3>Lexor - AI Virtual Assistant</h3>
+                <p>lexor is an AI-powered virtual assistant designed to automate local tasks and interact
+                    via voice. 🚀</p>
+                <a href="https://github.com/Krishna0406K/Lexor--Local-virtual-assistant.git" target="_blank" class="btn">View on
+                    GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>A Gun Detector</h3>
+                <p>A Gun Detector which uses AI-powered image recognition to detect firearms in real-time,
+                    enhancing security and safety. 🚀🔍</p>
+                <a href="https://github.com/yourusername/project2" target="_blank" class="btn">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>Weather App</h3>
+                <p>A Weather App which provides real-time weather updates, forecasts, and dynamic UI for a seamless user
+                    experience. ☀️🌧️</p>
+                <a href="https://github.com/Krishna0406K/Weather-App.git" target="_blank" class="btn">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>Bouncing Ball</h3>
+                <p>"A simple yet smooth bouncing ball animation showcasing keyframe animations for a realistic motion
+                    effect." 🚀</p>
+                <a href="https://github.com/Krishna0406K/my-project.git" target="_blank" class="btn">View on GitHub</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="footer-container" class="footer-container">
+            <div class="contact-info">Contact us at: krishnakhandelwal0406@gmail.com</div>
+            <div class="social-links">
+                <a href="https://www.instagram.com/kriishnaa._.k?igsh=Ynh2a3ZjMXV5MHJw" target="_blank">🔗 Instagram</a>
+                <a href="https://x.com/Krishna22597018" target="_blank">🐦 Twitter</a>
+                <a href="https://github.com/Krishna0406K" target="_blank">💻 GitHub</a>
+                <a href="https://www.linkedin.com/in/krishna-khandelwal-66b51630b/" target="_blank">🔗 LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Python Developer', 'Frontend Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
