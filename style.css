@@ -47,6 +47,20 @@ nav ul li a:hover {
     font-size: 1.2rem;
 }
 
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .left ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+}
+
 .firstsection {
     display: flex;
     justify-content: space-around;
@@ -73,6 +87,22 @@ nav ul li a:hover {
 
 .rightsection img {
     width: 100%;
+}
+
+@media (max-width: 768px) {
+    .firstsection {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .firstsection>div {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .rightsection img {
+        width: 80%;
+    }
 }
 
 .skills-section {
@@ -111,10 +141,18 @@ nav ul li a:hover {
     font-weight: bold;
     color: white;
 }
+@media (max-width: 768px) {
+    .skills-section {
+        width: 90%;
+        padding: 20px;
+    }
 
+    .skill-bar {
+        width: 100%;
+    }
+}
 
 h1 {
-    
     text-align: center;
     font-size: 60px;
     padding-bottom: 30px;
@@ -158,6 +196,17 @@ h1 {
     background: purple;
 }
 
+@media (max-width: 768px) {
+    .projects-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+
 footer {
     background: rgb(3, 3, 53);
     padding: 20px 0;
@@ -189,4 +238,19 @@ footer {
 .contact-info {
     font-size: 16px;
     margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        text-align: center;
+    }
+
+    .social-links a {
+        font-size: 20px;
+        margin: 5px;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
 }
